@@ -17,4 +17,12 @@ public class LockerTest {
         final LockerTicket ticket = locker.savePackage(pack);
         Assert.assertNotNull(ticket);
     }
+
+    @Test
+    public void test_should_be_get_null_when_locker_is_full() {
+        final UserPackage pack = new UserPackage();
+        final Locker locker = new Locker();
+        final LockerTicket ticket = locker.savePackage(pack);
+        Assert.assertNull(ticket);
+    }
 }
