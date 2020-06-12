@@ -2,6 +2,9 @@ package Locker;
 
 import org.junit.Test;
 import org.junit.Assert;
+import sun.security.krb5.internal.Ticket;
+
+import java.util.concurrent.locks.Lock;
 
 //TODO Given 还有空柜子， 包  When 存包  Then 存包成功，返回票据
 //TODO Given 没有空柜子，包  When 存包  Then 存包失败，不返回票据
@@ -16,7 +19,7 @@ public class LockerTest {
         final UserPackage pack = new UserPackage();
         final Locker locker = new Locker();
         locker.setLockCount(1);
-        
+
         //When
         final LockerTicket ticket = locker.savePackage(pack);
 
@@ -36,5 +39,20 @@ public class LockerTest {
 
         //Then
         Assert.assertNull(ticket);
+    }
+
+    @Test
+    public void test_should_be_get_package_when_ticket_is_valid() {
+        //Given
+        final Locker locker = new Locker();
+        final UserPackage pack = new UserPackage();
+        locker.setLockCount(5);
+        final LockerTicket ticket = locker.savePackage(pack);
+
+        //When
+        final UserPackage pickedPack = locker.pickUp(ticket);
+
+        //Then
+        Assert.assertEquals(pack, pickedPack);
     }
 }
