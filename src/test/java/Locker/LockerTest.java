@@ -55,4 +55,18 @@ public class LockerTest {
         //Then
         Assert.assertEquals(pack, pickedPack);
     }
+
+    @Test
+    public void test_should_be_get_null_when_ticket_is_invalid() {
+        //Given
+        final Locker locker = new Locker();
+        final UserPackage pack = new UserPackage();
+        final LockerTicket ticket = new LockerTicket();
+
+        //when
+        final UserPackage pickedPack = locker.pickUp(ticket);
+
+        //Then
+        Assert.assertNull(pickedPack);
+    }
 }
