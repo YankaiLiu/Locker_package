@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9970272-3b68-4150-b500-e88f9d52efd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Locker/Locker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Locker/LockerTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Locker/UserPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Locker/LockerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LockPackage/LockPackageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Locker/LockerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LockPackage/LockPackageTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +52,54 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Locker" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LockerTest">
+    <configuration name="LockerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Locker.LockerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'Locker'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Locker.*&quot; --scan --info" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests in 'locker_package.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -66,8 +120,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LockerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="locker_package.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Locker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Locker" />
+      <option name="MAIN_CLASS_NAME" value="Locker.LockerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LockerTest" />
+        <item itemvalue="Gradle.Tests in 'Locker'" />
+        <item itemvalue="Gradle.LockerTest" />
         <item itemvalue="Gradle.Tests in 'locker_package.test'" />
       </list>
     </recent_temporary>
@@ -94,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591972025895</updated>
-      <workItem from="1591972029715" duration="1419000" />
+      <workItem from="1591972029715" duration="2804000" />
     </task>
     <servers />
   </component>
@@ -102,13 +174,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591973159452">
+    <state x="523" y="234" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591973789004">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state x="523" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591973159452" />
-    <state x="349" y="139" key="SettingsEditor" timestamp="1591972609899">
+    <state x="523" y="234" key="#com.intellij.ide.util.PackageChooserDialog/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591973789004" />
+    <state x="523" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591973749849">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state x="349" y="139" key="SettingsEditor/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591972609899" />
+    <state x="523" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591973749849" />
+    <state width="1314" height="199" key="GridCell.Tab.0.bottom" timestamp="1591974850465">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1314" height="199" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974850465" />
+    <state width="1314" height="199" key="GridCell.Tab.0.center" timestamp="1591974850463">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1314" height="199" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974850463" />
+    <state width="1314" height="199" key="GridCell.Tab.0.left" timestamp="1591974850463">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1314" height="199" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974850463" />
+    <state width="1314" height="199" key="GridCell.Tab.0.right" timestamp="1591974850464">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1314" height="199" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974850464" />
+    <state width="1314" height="249" key="GridCell.Tab.1.bottom" timestamp="1591974252128">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1314" height="249" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974252128" />
+    <state width="1314" height="249" key="GridCell.Tab.1.center" timestamp="1591974252127">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1314" height="249" key="GridCell.Tab.1.center/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974252127" />
+    <state width="1314" height="249" key="GridCell.Tab.1.left" timestamp="1591974252126">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1314" height="249" key="GridCell.Tab.1.left/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974252126" />
+    <state width="1314" height="249" key="GridCell.Tab.1.right" timestamp="1591974252127">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1314" height="249" key="GridCell.Tab.1.right/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974252127" />
+    <state x="336" y="192" key="IDE.errors.dialog" timestamp="1591974278290">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="336" y="192" key="IDE.errors.dialog/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974278290" />
+    <state x="349" y="89" key="SettingsEditor" timestamp="1591974821405">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state x="349" y="89" key="SettingsEditor/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974821405" />
   </component>
 </project>
