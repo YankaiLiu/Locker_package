@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9970272-3b68-4150-b500-e88f9d52efd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locker/Locker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locker/LockerTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locker/UserPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Locker/LockerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LockPackage/LockPackageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locker/Locker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locker/Locker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591972025895</updated>
-      <workItem from="1591972029715" duration="2804000" />
+      <workItem from="1591972029715" duration="2987000" />
     </task>
     <servers />
   </component>
@@ -182,22 +167,22 @@
       <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state x="523" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591973749849" />
-    <state width="1314" height="199" key="GridCell.Tab.0.bottom" timestamp="1591974850465">
+    <state width="1314" height="199" key="GridCell.Tab.0.bottom" timestamp="1591975032987">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1314" height="199" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974850465" />
-    <state width="1314" height="199" key="GridCell.Tab.0.center" timestamp="1591974850463">
+    <state width="1314" height="199" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591975032987" />
+    <state width="1314" height="199" key="GridCell.Tab.0.center" timestamp="1591975032986">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1314" height="199" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974850463" />
-    <state width="1314" height="199" key="GridCell.Tab.0.left" timestamp="1591974850463">
+    <state width="1314" height="199" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591975032986" />
+    <state width="1314" height="199" key="GridCell.Tab.0.left" timestamp="1591975032986">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1314" height="199" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974850463" />
-    <state width="1314" height="199" key="GridCell.Tab.0.right" timestamp="1591974850464">
+    <state width="1314" height="199" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591975032986" />
+    <state width="1314" height="199" key="GridCell.Tab.0.right" timestamp="1591975032987">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1314" height="199" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591974850464" />
+    <state width="1314" height="199" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1680.963@0.23.1680.963" timestamp="1591975032987" />
     <state width="1314" height="249" key="GridCell.Tab.1.bottom" timestamp="1591974252128">
       <screen x="0" y="23" width="1680" height="963" />
     </state>

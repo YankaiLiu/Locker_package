@@ -3,6 +3,6 @@ package Locker;
 public class Locker {
     public LockerTicket savePackage(UserPackage pack) {
 
-        return null;
+        return new LockerTicket();
     }
 }
